@@ -1,6 +1,8 @@
 com/elijahkx/Client.class
-com/elijahkx/App.class
-com/elijahkx/ClientHandler$1.class
+com/elijahkx/constants/errors/ErrorConstants.class
+com/elijahkx/utils/messages/MessagesUtils.class
+com/elijahkx/utils/messages/MessagesUtils$MessageType.class
 com/elijahkx/ClientHandler.class
+com/elijahkx/utils/messages/MessagesUtils$1.class
+com/elijahkx/constants/commands/CommandConstants.class
 com/elijahkx/Server.class
-com/elijahkx/ClientHandler$MessageType.class

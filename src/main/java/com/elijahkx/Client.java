@@ -98,7 +98,7 @@ public class Client {
     }
 
     private void handleChatMessage(String message) {
-        if (nickname.isEmpty()) {
+        if (nickname == null) {
             System.out.println(ErrorConstants.SET_NICKNAME_FIRST_ERROR);
             return;
         }
@@ -117,6 +117,7 @@ public class Client {
     private void setNicknameFromServer(String newNickname) {
         nickname = newNickname;
         System.out.println("Nickname set to: " + nickname);
+        System.out.println("You have entered the chat, you can begin typing :)");
     }
 
     private void disconnect() {
